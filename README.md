@@ -360,62 +360,42 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 ## FOR PULSE AT 500
-
-<img width="1034" height="534" alt="Screenshot 2025-11-14 110217" src="https://github.com/user-attachments/assets/c8724722-ed05-43ad-b45e-65806c2eb614" />
-
-```
-TON = 1.5 * 10 * 10^-6
-    = 0.000015
-TOFF= 4.5 * 10 * 10^-6
-    = 0.000045
-TOTAL TIME = TON + TOFF
-           = 
-FREQUENCY = 1/(TOTAL TIME)
-          = 0.00006
-DUTY CYCLE = TON/(TON+TOFF)
-           = 0.000015/(0.00006)
-           = 0.25
-DUTY CYCLE (IN PERCENTAGE) = 0.25 * 100 
-           = 25%
-```
-
-## FOR PULSE AT 700
-
-<img width="1039" height="537" alt="Screenshot 2025-11-14 110227" src="https://github.com/user-attachments/assets/957c2e9f-4db2-4087-a9e4-c2f50ce10fa9" />
+![WhatsApp Image 2025-11-26 at 11 31 21_aa79ab39](https://github.com/user-attachments/assets/c30a3ade-f509-44c7-b244-187cb7983e62)
 
 ```
-TON = 3 * 10 * 10^-6
-    = 0.00003
-TOFF= 3 * 10 * 10^-6
-    = 0.00003
-TOTAL TIME = TON + TOFF
+TON = 3 x 10 x 10^-6 = 0.00003
+TOFF= 3 x 10 x 10^-6 = 0.00003
+TOTAL TIME = TON + TOFF  
+           = 0.00003 + 0.00003
            = 0.00006
 FREQUENCY = 1/(TOTAL TIME)
-          = 16666.666666666
-DUTY CYCLE = TON/(TON+TOFF)
+          = 1/0.00006
+          = 16666.7
+DUTY CYCLE = TON / TON+TOFF
+           = 0.00003 / 0.00006
            = 0.5
-DUTY CYCLE (IN PERCENTAGE) = 0.5 * 100
-           = 50%
+      IN % = 0.5 x 100
+           = 50 %
 ```
 
 
 ## FOR PULSE AT 900
 
-<img width="1035" height="536" alt="Screenshot 2025-11-14 110236" src="https://github.com/user-attachments/assets/25079f54-93ce-4484-981e-b08a73f9bec9" />
+![WhatsApp Image 2025-11-26 at 11 31 21_1a2bc46a](https://github.com/user-attachments/assets/1cc89754-b9ab-4f46-bdbc-6d5abe33ca14)
 
 ```
-TON = 4.5 * 10 * 10^-6
-    = 0.000045
-TOFF= 1.5 * 10 * 10^-6
-    = 0.000015
+TON = 1 x 50 x 10^-6 = 0.00005
+TOFF= 0.1 x 50 x 10^-6 = 0.000005
 TOTAL TIME = TON + TOFF
-           = 0.00006
+           = 0.00005 + 0.000005
+           = 0.000055
 FREQUENCY = 1/(TOTAL TIME)
-          = 16666.666666666
-DUTY CYCLE = TON/(TON+TOFF)
-           = 0.75
-DUTY CYCLE (IN PERCENTAGE) = 0.75 * 100
-           = 75%
+          = 18181.82
+DUTY CYCLE = TON / TON+TOFF
+           = 0.00005/0.000055
+           = 0.9
+      IN % =0.9*100 
+           = 90 %
 ```
 
 
