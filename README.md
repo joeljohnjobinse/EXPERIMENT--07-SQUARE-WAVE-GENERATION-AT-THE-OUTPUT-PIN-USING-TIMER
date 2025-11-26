@@ -353,10 +353,12 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 ## Output screen shots of proteus  :
- 
+ <img width="1149" height="805" alt="image" src="https://github.com/user-attachments/assets/2f9191c0-266f-4de4-b650-c4921254141a" />
+
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- 
+ <img width="1008" height="701" alt="image" src="https://github.com/user-attachments/assets/0557ef2a-aa40-4c1b-a6e6-d3963b7f6ada" />
+
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 ## FOR PULSE AT 500
